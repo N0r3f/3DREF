@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tableau de bord de l'administrateur</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/dashboard.js"></script>
+</head>
+<body>
+  <h1>Tableau de bord de l'administrateur</h1>
+
+  <!-- Formulaire pour ajouter une image -->
+  <form id="add-image-form">
+    <input type="file" id="image-file">
+    <button type="submit">Ajouter une image</button>
+  </form>
+
+  <!-- Formulaire pour modifier une image -->
+  <form id="edit-image-form">
+    <input type="text" id="image-id">
+    <input type="file" id="new-image-file">
+    <button type="submit">Modifier une image</button>
+  </form>
+
+  <!-- Formulaire pour supprimer une image -->
+  <form id="delete-image-form">
+    <input type="text" id="delete-image-id">
+    <button type="submit">Supprimer une image</button>
+  </form>
+
+  <!-- Formulaire pour ajouter une catégorie -->
+<form id="add-category-form">
+    <input type="text" id="category-name" placeholder="Nom de la catégorie">
+    <button type="submit">Ajouter une catégorie</button>
+  </form>
+  
+  <!-- Formulaire pour modifier une catégorie -->
+  <form id="edit-category-form">
+    <input type="text" id="category-id-to-edit" placeholder="ID de la catégorie">
+    <input type="text" id="new-category-name" placeholder="Nouveau nom de la catégorie">
+    <button type="submit">Modifier la catégorie</button>
+  </form>
+  
+  <!-- Formulaire pour supprimer une catégorie -->
+  <form id="delete-category-form">
+    <input type="text" id="category-id-to-delete" placeholder="ID de la catégorie">
+    <button type="submit">Supprimer la catégorie</button>
+  </form>
+  
+  <!-- Formulaire pour ajouter un tag -->
+  <form id="add-tag-form">
+    <input type="text" id="tag-name" placeholder="Nom du tag">
+    <button type="submit">Ajouter un tag</button>
+  </form>
+  
+  <!-- Formulaire pour modifier un tag -->
+  <form id="edit-tag-form">
+    <input type="text" id="tag-id-to-edit" placeholder="ID du tag">
+    <input type="text" id="new-tag-name" placeholder="Nouveau nom du tag">
+    <button type="submit">Modifier le tag</button>
+  </form>
+  
+  <!-- Formulaire pour supprimer un tag -->
+  <form id="delete-tag-form">
+    <input type="text" id="tag-id-to-delete" placeholder="ID du tag">
+    <button type="submit">Supprimer le tag</button>
+  </form>
+  
+</body>
+</html>
