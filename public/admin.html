@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tableau de bord de l'administrateur</title>
+  <title>Connexion Administrateur</title>
 </head>
 <body>
-  <h1>Tableau de bord de l'administrateur</h1>
-
-  <!-- Formulaire pour ajouter une image -->
-  <form id="add-image-form">
-    <!-- ... -->
+  <h1>Connexion Administrateur</h1>
+  
+  <form action="dashboard.html" method="POST">
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="Se connecter">
   </form>
-
-  <!-- Formulaire pour modifier une image -->
-  <form id="edit-image-form">
-    <!-- ... -->
-  </form>
-
-  <!-- Formulaire pour supprimer une image -->
-  <form id="delete-image-form">
-    <!-- ... -->
-  </form>
-
-  <!-- Etc. pour les catégories et les tags -->
 </body>
 </html>
