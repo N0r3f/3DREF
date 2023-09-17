@@ -1,1 +1,0 @@
-router.post('/add-category', categoryController.addCategory);
